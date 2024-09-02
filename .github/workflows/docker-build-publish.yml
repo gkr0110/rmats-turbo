@@ -8,8 +8,8 @@ name: Docker
 on:
   push:
     branches: [ "main" ] ## build only from main
-    paths-ignore:
-      - '**.md' ## don't build for readme file updates!!
+    # paths-ignore:
+      # - '**.md' ## don't build for readme file updates!!
 
 env:
   REGISTRY: ghcr.io
